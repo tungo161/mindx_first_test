@@ -1,0 +1,91 @@
+.content{
+    padding: 100px;
+}
+.content .content_header .content_header_title{
+    font-weight: 900;
+    font-size: 32px;
+    color: #151B32;
+    font-family: 'Merriweather';
+    margin-bottom: 24px;
+}
+.content_header_menu{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 70px;
+    align-items: center;
+}
+.box_search{
+    border-radius: 4px;
+    border: 1px solid #BFC8E6;
+    display: flex;
+    gap: 8px;
+    padding: 16px;
+    min-width: 327px;
+}
+.box_search .box_search_input{
+    border: unset;
+    padding: 0;
+}
+.box_search ::placeholder {
+    font-size: 16px;
+    font-weight: 500;
+    color: #151B32;
+    font-family: 'Poppins';
+}
+.menu_list{
+    display: flex;
+}
+.menu_list .menu_list_item{
+    padding: 16px;
+    font-weight: 500;
+    color: #151B32;
+    font-family: 'Poppins';
+    font-size: 16px;
+    border-radius: 16px;
+    cursor: pointer;
+}
+.menu_list .menu_list_item.active{
+    background-color: #849FFF;
+    color:#FFFFFF;
+}
+.content_body{
+    display: grid;
+    gap: 16px;
+    grid-template-columns: repeat(3, 1fr);
+}
+.content_body .content_body_item{
+    padding: 24px;
+    background-color: #FBFCFF;
+    border-radius: 16px;
+    display: flex;
+    gap: 16px;
+}
+.user_name{
+    padding: 20px 0 4px 0;
+    font-size: 18px;
+    font-weight: 900;
+    color: #151B32;
+    font-family: 'Merriweather';
+}
+.user_add{
+    margin-bottom: 16px;
+    font-size: 14px;
+    font-weight: 500;
+    color: #151B32;
+    font-family: 'Poppins';
+}
+.user_hop{
+    display: flex;
+    gap: 4px;
+    flex-wrap: wrap;
+}
+.user_hop .user_hop_item{
+    font-size: 12px;
+    font-weight: 500;
+    font-family: 'Poppins';
+    color: #516FD4;
+    border: 1px solid #BFC8E6;
+    border-radius: 10px ;
+    padding: 2px 8px 2px 8px;
+}
+
